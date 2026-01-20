@@ -26,15 +26,15 @@ Installation Guide
 
     Node.js (default):
    
-        sudo docker run -d -p 80:80 -p 443:443 -p 5454:5454 -p 8484:8484 -e IP_ADDRESS=SERVER-IP-HERE -e SERVER_TYPE=nodejs --name o11 o11-v4
+        sudo docker run -d -p 80:80 -p 443:443 -p 5454:5454 -p 11560:11560 -e IP_ADDRESS=SERVER-IP-HERE -e SERVER_TYPE=nodejs --name o11 o11-v4
     
     Python:
    
-        sudo docker run -d -p 80:80 -p 443:443 -p 5454:5454 -p 8484:8484 -e IP_ADDRESS=SERVER-IP-HERE -e SERVER_TYPE=python --name o11 o11-v4
+        sudo docker run -d -p 80:80 -p 443:443 -p 5454:5454 -p 11560:11560 -e IP_ADDRESS=SERVER-IP-HERE -e SERVER_TYPE=python --name o11 o11-v4
 
 11. Access the Web Panel:
 
-    URL: http://SERVER-IP-HERE:8484
+    URL: http://SERVER-IP-HERE:11560
     
     Credentials: admin:admin
 
