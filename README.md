@@ -33,6 +33,7 @@ Installation Guide
         sudo docker run -d -p 80:80 -p 443:443 -p 5454:5454 -p 11560:11560 -e IP_ADDRESS=SERVER-IP-HERE -e SERVER_TYPE=python --name o11 o11-v4
 
     Python full Test:
+   
        sudo docker run -d -p 80:80 -p 443:443 -p 5454:5454 -p 11560:11560 -e IP_ADDRESS=192.168.1.72 -e SERVER_TYPE=python --name o11 o11-v4
 
 11. Access the Web Panel:
