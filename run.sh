@@ -15,7 +15,7 @@ mount -av
 while true; do
   if ! pgrep "o11v4" > /dev/null; then
 
-    /home/o11/o11v4 -p 8484 -noramfs -f /usr/bin/ffmpeg -path "/home/o11/" -noautostart -plstreamname "%s [%p]" &
+    /home/o11/o11v4 -p 11560 -noramfs -f /usr/bin/ffmpeg -path "/home/o11/" -noautostart -plstreamname "%s [%p]" &
     
 
     sleep 10
